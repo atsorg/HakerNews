@@ -17,7 +17,14 @@ function Story({id}) {
     return(
         <div>
             <h3>{data?.title}</h3>
-            <a href={data?.url}>{data?.url}</a>
+            {"|"}
+            <span>by &nbsp;{data?.by}</span>
+            {"|"}
+            <a href={data?.url}>&nbsp;Click Here</a>
+           {"|"}
+            <span>&nbsp;{data?.time}</span>
+            {"|"}
+            <span>&nbsp;{data?.score}</span>
         </div>
     )
 }
