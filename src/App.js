@@ -1,6 +1,7 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import { getTopStories } from "./api";
+import { Rheader } from "./rheader"
 import Home from "./home.";
 import {
   QueryClient,
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <QueryClientProvider client={queryClient}>
+        <Rheader></Rheader>
         <Home />
       </QueryClientProvider>
     </div>

@@ -1,0 +1,7 @@
+.rmainhead{
+    background-color: rgb(240, 93, 8);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
